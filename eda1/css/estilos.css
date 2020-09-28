@@ -6,7 +6,6 @@ body{
 }
 .navegador{
     background-color: rgb(101, 124, 185);
-    flex-direction: row;
     flex-wrap: nowrap;
     border: 2px solid rgb(38, 86, 160);
 }
