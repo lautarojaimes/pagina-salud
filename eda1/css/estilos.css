@@ -4,9 +4,34 @@ body{
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+h1{
+    color: rgb(101, 124, 185);
+}
+
 .navegador{
     background-color: rgb(101, 124, 185);
     flex-direction: row;
     flex-wrap: nowrap;
     border: 2px solid rgb(38, 86, 160);
+}
+
+.navegador ul{
+    display: flex;
+    justify-content: center;
+    width: calc(10%-20px);
+}
+
+.listado li{
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.listado a{
+    color: white;
+}
+
+.listado a:hover{
+    color: rgb(184, 229, 255);
 }
