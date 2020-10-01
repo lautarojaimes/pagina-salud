@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 body{
-    background-color: rgb(173, 255, 255);
+    background-image: url(../img/fondo.png);
     margin: 2px;
     padding: 10px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -17,6 +17,8 @@ h1{
     flex-direction: row;
     flex-wrap: nowrap;
     border: 2px solid rgb(38, 86, 160);
+    border-radius: 10px 10px;
+    box-shadow: slateblue;
 }
 
 .navegador ul{
