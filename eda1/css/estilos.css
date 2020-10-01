@@ -7,9 +7,15 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+header{
+    display: flex;
+    flex-direction: row;
+}
+
 h1{
     font-size: 45px;
     color: rgb(101, 124, 185);
+    padding-left: 2%;
 }
 
 .navegador{
@@ -41,4 +47,15 @@ h1{
 
 .listado a:hover{
     color: rgb(184, 229, 255);
+}
+
+.pie{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.info-pie{
+    text-align: center;
 }
