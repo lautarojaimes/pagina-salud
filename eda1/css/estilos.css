@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
 body{
     background-color: rgb(173, 255, 255);
     margin: 2px;
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1{
+    font-size: 45px;
     color: rgb(101, 124, 185);
 }
 
@@ -23,12 +26,14 @@ h1{
 }
 
 .listado li{
+    font-size: 30px;
     margin-left: 10px;
     margin-right: 10px;
     list-style: none;
 }
 
 .listado a{
+    text-decoration: none;
     color: white;
 }
 
