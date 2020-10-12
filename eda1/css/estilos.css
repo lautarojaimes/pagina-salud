@@ -18,6 +18,11 @@ h1{
     padding-left: 2%;
 }
 
+h2{
+    font-size: 27px;
+    color: rgb(101, 124, 185);
+}
+
 .navegador{
     background-color: rgb(101, 124, 185);
     flex-direction: row;
@@ -51,7 +56,7 @@ h1{
 
 .pie{
     position: relative;
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     flex-direction: row;
 }
