@@ -54,13 +54,22 @@ h2{
     color: rgb(184, 229, 255);
 }
 
-.pie{
-    position: relative;
-    display: flex; 
-    justify-content: space-between;
-    flex-direction: row;
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 60px;
 }
 
-.info-pie{
+.a{
+    text-align: left;
+}
+
+.b{
     text-align: center;
+    margin-top: 15px;
+}
+
+.c{
+    text-align: right;
+    margin-top: 15px;
 }
